@@ -24,3 +24,18 @@ console.log(guestsByClass[0])
 // Selecionar lista de elementos pela tag
 const guestsTag = document.getElementsByTagName("li")
 console.log(guestsTag)
+
+// querySelector
+
+// Acessa o elemento pelo seletor id (apenas primeira ocorrência)
+const guest = document.querySelector("#guest-2")
+//ou guest = document.querySelector("li#guest-2")
+console.log(guest)
+
+//com class, trocamos # por . conforme HTML (apenas primeira ocorrência)
+
+// Retornar todos os elementos encontrados pelo query
+const guests = document.querySelectorAll(".guest")
+console.log(guests)
+
+
